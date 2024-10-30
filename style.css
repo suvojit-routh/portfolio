@@ -1,0 +1,290 @@
+body {
+    margin: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: hotpink;
+}
+
+.navbar a:hover {
+    color: rgb(186, 0, 93);
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar {
+    background-color: rgb(221, 255, 244);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 15px solid rgb(221, 255, 244);
+}
+
+
+.navbar img {
+    margin-top: 10px;
+    padding-left: 220px;
+}
+
+.navbar ul {
+    padding: 0 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.container {
+    background-color: rgb(221, 255, 244);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    flex-wrap: wrap;
+}
+
+.container h1 {
+    font-family: "Marck Script", cursive;
+    color: hotpink;
+    font-weight: 100;
+    font-size: 100px;
+    margin: 0;
+}
+
+.container p {
+    font-family: 'Press Start 2P', cursive;
+    color: hotpink;
+    font-size: 30px;
+    margin: 0;
+}
+
+.clouds{
+    background-color: rgb(221, 255, 244);
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 200px 0 200px;
+    flex-wrap: wrap;
+}
+.mountain{
+    background-color: rgb(221, 255, 244);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(214, 213, 213);
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    
+}
+.info h1{
+    color: hotpink;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.info p,.text-content p,.text-content2 p,.freelance p{
+    background-color:  rgb(221, 255, 244);
+    color: rgb(54, 54, 54);
+    margin: 0;
+    width: 350px;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(172, 171, 171);   
+    font-family: 'Press Start 2P', cursive;  
+}
+.info p:hover,.text-content p:hover,.text-content2 p:hover,.freelance p:hover{
+    background-color: hotpink;
+    color: black;
+}
+.middle-text{
+    display: flex;
+    justify-content: center;
+    color: hotpink;
+    padding-top: 100px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 28px;
+}
+
+.skill,.skill2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;       
+    gap: 100px;    
+    padding-top: 10px; 
+    margin: 0;
+    flex-wrap: wrap;
+            }
+
+.text-content,.text-content2 {
+    padding-bottom: 10px;  
+    display: flex;
+    flex-direction: column;     
+}
+
+.text-content h3{                  
+    color: hotpink;     
+    font-size: 1.5em;   
+    font-family: 'Press Start 2P', cursive;  
+}
+
+.text-content2 h3{
+    color: hotpink;
+    margin-top: 10px;
+    font-size: 1.5em; 
+    font-family: 'Press Start 2P', cursive; 
+}
+
+.freelance{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.freelance a,.work-1 a,.work-2 a{
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: hotpink;
+    color: black;
+    padding: 4px 15px 4px 15px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-family: 'Press Start 2P', cursive;
+}
+.freelance a:hover,.work-1 a:hover,.work-2 a:hover{
+    background-color:  rgb(186, 0, 93);
+    color: white;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: hotpink;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+    flex-wrap: wrap;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+footer li{
+    list-style: none;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: black;
+}
+footer a{
+    color: rgb(255, 0, 128);
+    text-decoration: none;    
+    font-family: 'Press Start 2P', cursive;  
+}
+footer p{
+    color: rgb(36, 34, 34);
+    display: flex;
+    justify-content: center;
+    font-family: 'Press Start 2P', cursive; 
+}
+
+.work-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin: 0;
+}
+.work-container-h1 h1{
+    display: flex;
+    justify-content: center;
+    color: hotpink;
+    font-family: "Marck Script", cursive;
+    font-weight: 100;
+    font-size: 100px;
+    margin-top: 40px;    
+}
+
+.work-1,.work-2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgb(255, 200, 227);
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    border: 1px solid black;
+}
+.work-1 img,.work-2 img{
+    width: 64px;
+    height: 64px;
+    border-radius: 10px;
+}
+
+.work-1 h1,.work-2 h1{
+    color: rgb(255, 0, 128);
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.work-1 p,.work-2 p{
+    font-family: 'Press Start 2P', cursive;
+}
+.work-1 a,.work-2 a{
+    margin: 0;
+}
+
+.notes-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.notes-heading h1{
+    display: flex;
+    justify-content: center;
+    color: hotpink;
+    font-family: "Marck Script", cursive;
+    font-weight: 100;
+    font-size: 100px;
+    margin-top: 40px;    
+}
+
+.notes-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hotpink;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    max-width: 1000px;
+}
+.notes-content h1{
+    color: rgb(255, 0, 128);
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+}
+.notes-content p{
+    margin: 10px 0 10px 0;
+    color: black;
+    font-family: 'Press Start 2P', cursive;
+}
+
