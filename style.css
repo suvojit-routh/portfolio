@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: rgb(221, 255, 244)
 }
 
 .navbar a {
@@ -26,21 +27,19 @@ body {
 
 .navbar img {
     margin-top: 10px;
-    padding-left: 220px;
 }
 
 .navbar ul {
-    padding: 0 70px;
+    padding: 0 5px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
     font-size: 20px;
     font-family: 'Press Start 2P', cursive;
 }
 
 .container {
-    background-color: rgb(221, 255, 244);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -64,22 +63,7 @@ body {
     margin: 0;
 }
 
-.clouds{
-    background-color: rgb(221, 255, 244);
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0 200px 0 200px;
-    flex-wrap: wrap;
-}
-.mountain{
-    background-color: rgb(221, 255, 244);
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    border-bottom: 1px solid rgb(214, 213, 213);
-}
+
 .info{
     display: flex;
     flex-direction: column;
@@ -179,8 +163,7 @@ footer{
 footer ul{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 50px;
+    justify-content: space-evenly;
 }
 footer li{
     list-style: none;
@@ -288,3 +271,22 @@ footer p{
     font-family: 'Press Start 2P', cursive;
 }
 
+@media (max-width: 767px) {
+    body {
+      font-size: 16px;
+      padding: 10px;
+    }
+  
+    .container h1,.work-container-h1 h1,.notes-heading h1{
+        font-size: 3rem;
+    }
+    .container p{
+        font-size: 1.5rem;
+    }
+    .navbar a{
+        font-size: 1rem;
+    }
+    .info p,.text-content p,.text-content2 p,.freelance p{
+        width: 250px;
+    }
+  }
